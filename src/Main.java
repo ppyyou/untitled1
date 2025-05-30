@@ -2,20 +2,14 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        int age = 25;
+        double salary = 55000.75;
+        int bonus = 5000;
+        double totalSalary = salary + bonus;
 
-        System.out.println(age);
+        System.out.println("(1) My Salary: " + totalSalary);
 
-        age = 26;
+        int totalSalary2 = (int) (salary + bonus);
 
-        System.out.println(age);
-
-        double salary = 50000.75;
-
-        System.out.println(salary);
-
-        String name = "유상";
-
-        System.out.println(name.length());
+        System.out.println("(2) My Salary: " + totalSalary2);
     }
 }
